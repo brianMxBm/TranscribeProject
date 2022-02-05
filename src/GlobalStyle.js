@@ -2,6 +2,15 @@ import {createGlobalStyle} from 'styled-components';
 
 
 const GlobalStyle = createGlobalStyle`
+    :root{
+        --purple-primary: #554DDE;
+        --accent-pink: #F44E77;
+        --neutral-light: #F2F6FF;
+        --lavender-secondary: #6A6D9E; /*Primary Font Color*/
+        --dark-primary: #16194F;
+        --border-colour: #CAD6F1;
+        
+    }
     *{
         margin: 0;
         padding: 0;
@@ -9,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
     body{
-        background-color: slateblue;
+        background-color: var(--lavender-secondary);
 
 
 `;
