@@ -16,9 +16,17 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         list-style: none;
         box-sizing: border-box;
+        font-family: 'Nunito', sans-serif;
+        text-decoration: none;
     }
     body{
-        background-color: var(--lavender-secondary);
+        background-color: var(--nuetral-light );
+        color: white;
+        font-size: 1.2rem;
+    
+    a{
+        color: inherit;
+    }
 
 
 `;
